@@ -1,12 +1,52 @@
-# React + Vite
+# 🎯 React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+تطبيق Quiz تفاعلي مبني باستخدام **React.js** و **Tailwind CSS**.  
+الهدف من التطبيق هو اختبار معلوماتك في **HTML & CSS** عبر ثلاث مستويات: **Easy, Medium, Hard**.  
 
-Currently, two official plugins are available:
+- المستخدم يدخل اسمه.  
+- يجاوب على الأسئلة.  
+- يحصل على **النتيجة (Score + Points)**.  
+- لو النتيجة أكبر من أو تساوي 50% → يقدر يحمل **شهادة PDF** باسمه وتاريخ النجاح.  
+- يقدر كمان يحمل **ملف PDF بالنتيجة كاملة**.  
+- متوفر زر لإعادة المحاولة (Retake Quiz).  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 [Live Demo on Vercel](https://quiz-app-five-lac.vercel.app/)
+
+---
+
+## 📸 Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/Ibrahim-Ashraf-Saber/quiz-app/main/public/1.png)
+![App Screenshot](https://raw.githubusercontent.com/Ibrahim-Ashraf-Saber/quiz-app/main/public/2.png)
+![App Screenshot](https://raw.githubusercontent.com/Ibrahim-Ashraf-Saber/quiz-app/main/public/3.png)
+![App Screenshot](https://raw.githubusercontent.com/Ibrahim-Ashraf-Saber/quiz-app/main/public/4.png)
+![App Screenshot](https://raw.githubusercontent.com/Ibrahim-Ashraf-Saber/quiz-app/main/public/5.png)
+![App Screenshot](https://raw.githubusercontent.com/Ibrahim-Ashraf-Saber/quiz-app/main/public/6.png)
+![App Screenshot](https://raw.githubusercontent.com/Ibrahim-Ashraf-Saber/quiz-app/main/public/7.png)
+
+---
+
+## ✨ Features
+
+- 📝 Quiz with multiple levels (Easy / Medium / Hard)  
+- 📊 Live score and points calculation  
+- 📄 Export **Quiz Result PDF**  
+- 🏆 Export **Certificate PDF** if score ≥ 50%  
+- 🔄 Retake Quiz option  
+- 📱 Responsive design  
+
+---
+
+## 🛠️ Installation
+
+Clone the repo and install dependencies:
+
+```bash
+  git clone https://github.com/Ibrahim-Ashraf-Saber/quiz-app.git
+  cd quiz-app
+  npm install
+  npm start
