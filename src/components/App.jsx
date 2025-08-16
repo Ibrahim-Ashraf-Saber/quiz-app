@@ -27,13 +27,16 @@ function reduce(state, action) {
         level: action.payload,
         questions: questions
           .filter((q) => q.level === action.payload)
-          .slice(0, state.numQ),
+          .slice(0, state.numQ)
+          .sort(() => Math.random() - 0.5),
         timeSec: 30 * state.numQ,
       };
     case "setNumQ":
       return {
         ...state,
-        questions: state.questions.slice(0, action.payload),
+        questions: state.questions
+          .slice(0, action.payload)
+          .sort(() => Math.random() - 0.5),
         numQ: action.payload,
         timeSec: 30 * action.payload,
       };
